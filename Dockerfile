@@ -4,8 +4,6 @@ FROM argoproj/argocli:v2.3.0 as argocli
 
 FROM alpine
 
-LABEL maintainer="erik@bitphy.com"
-
 # Install git
 RUN apk --no-cache add git openssh-client
 

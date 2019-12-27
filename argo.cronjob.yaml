@@ -38,7 +38,7 @@ spec:
                   value: dev
                 - name: OLDER
                   value: 5d
-                - name: SECRET_PASSWORD
+                - name: GIT_REPO
                   valueFrom:
                     secretKeyRef:
                       name: git-ssh
